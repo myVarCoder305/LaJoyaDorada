@@ -6,11 +6,19 @@
     height: 400px;
     width: 600px;
     float: right;
-    margin: 0 0 0 0;
+    border: 10px;
 }
 
-.visiten {
-    font-style: unset;
+#airview {
+    float: left;
+    height: 400px;
+    width: 600px;
+}
+
+#visiten {
+    text-decoration: underline;
+    color: orangered;
+    font-style: italic;
 }
 
 .header {
@@ -35,14 +43,14 @@
 .header-nav__link-logo-container {
     display: flex;
     width: 207px;
-    height: 100px;
+    height: 120px;
 }
 
 
   
 .header-nav__link-logo {
     width: 110%;
-    height: 110px;
+    height: 120px;
 }
 
 .header-nav__menu-list {
@@ -87,4 +95,5 @@
 .header-nav__menu-link:hover::before {
     width: 100%;
 }
+
 
