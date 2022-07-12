@@ -1,12 +1,11 @@
 .body {
-    background-color: gold;
+    background-color: whitesmoke;
 }
 
 #entry {
     height: 400px;
     width: 600px;
     float: right;
-    border: 10px;
 }
 
 #airview {
@@ -17,12 +16,17 @@
 
 #visiten {
     text-decoration: underline;
-    color: orangered;
+    color: black;
     font-style: italic;
+    font-family: fantasy;
+    background-color: darkolivegreen;
+    height: 35px;
 }
 
 .header {
     background-color: black;
+    border: 6px solid gold;
+
 }
 
 .header-nav {
@@ -38,12 +42,14 @@
     margin: 0 auto;
     padding: 0 1rem;
 }
+    
 
 
 .header-nav__link-logo-container {
     display: flex;
     width: 207px;
     height: 120px;
+    border: gold 10px;
 }
 
 
@@ -95,5 +101,4 @@
 .header-nav__menu-link:hover::before {
     width: 100%;
 }
-
 
