@@ -99,4 +99,9 @@
     width: 100%;
 }
 
-@media (min-width)
+@media (min-width: 900px) {
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+}    
